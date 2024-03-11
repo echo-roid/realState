@@ -138,8 +138,10 @@ button {
     font-style: normal;
 }
 
-
-.logo1{
+.black{
+    background-color: rgb(0 0 0)!important;
+}
+.logo{
     width: 56%;
 }
 
@@ -165,6 +167,12 @@ button {
     outline: none;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, .1);
     border-radius: 10px;
+}
+
+.btn-info {
+    background: linear-gradient(120deg, #B38728, #FBF5B7, #AA771C) !important;
+    color: #000 !important;
+    border: none !important;
 }
 
 .bannerimage {
@@ -418,7 +426,9 @@ button {
     text-transform: none;
 }
 
-
+.gallery img {
+    height: 200px;
+}
 
 .craouselSection .owl-theme .owl-nav {
     margin-top: 10px;
@@ -685,10 +695,13 @@ footer p {
 
 
 .overviewimg{
-    height: 457px;
+    height: 338px;
 object-fit: contain;
 }
-
+.overviewimg2{
+    height: 439px;
+    object-fit: contain;
+}
 @media (max-width:800px) {
     .mob {
         display: block;
@@ -740,6 +753,11 @@ object-fit: contain;
       
         font-size: 24px;
     }   
+
+    .overviewimg {
+        height: 227px;
+        object-fit: contain;
+    }
    
 }
 
@@ -821,5 +839,18 @@ object-fit: contain;
    .res{
       margin-bottom: 25px;
    }
+   .overviewimg{
     
+    width: 49% !important;
+    height: 203px;
+
+   }
+   .Tablesection{
+    padding: 0!important;
+    margin-bottom: 20px;
+   }
+   .overviewimg2{
+        height: 335px;
+        object-fit: inherit;
+    }
 }
