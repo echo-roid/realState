@@ -138,15 +138,16 @@ button {
     font-style: normal;
 }
 
-.black{
-    background-color: rgb(0 0 0)!important;
+.black {
+    background-color: rgb(0 0 0) !important;
 }
-.logo{
+
+.logo {
     width: 56%;
 }
 
 
-.desklogo{
+.desklogo {
     width: 70%;
 }
 
@@ -694,14 +695,16 @@ footer p {
 }
 
 
-.overviewimg{
+.overviewimg {
     height: 338px;
-object-fit: contain;
+    object-fit: contain;
 }
-.overviewimg2{
+
+.overviewimg2 {
     height: 439px;
     object-fit: contain;
 }
+
 @media (max-width:800px) {
     .mob {
         display: block;
@@ -746,110 +749,136 @@ object-fit: contain;
         height: 40vh;
     }
 
-    .request ,.most{
+    .request,
+    .most {
         font-size: 18px;
     }
+
     .overview-heading h3 {
-      
+
         font-size: 24px;
-    }   
+    }
 
     .overviewimg {
         height: 227px;
         object-fit: contain;
     }
-   
+
 }
 
 @media (max-width:600px) {
-    .contentimg{
-      margin-bottom: 30px;
-    } 
-
-    .overview,.usps,.gallerysection,.slide2,.craouselSection,.mapworld{
-        padding:40px 20px!important
+    .contentimg {
+        margin-bottom: 30px;
     }
-    .types ul li{
+
+    .overview,
+    .usps,
+    .gallerysection,
+    .slide2,
+    .craouselSection,
+    .mapworld {
+        padding: 40px 20px !important
+    }
+
+    .types ul li {
         float: unset;
         padding: 0;
-        width: inherit!important;
+        width: inherit !important;
         margin-bottom: 20px;
     }
-    .types ul{
+
+    .types ul {
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column; 
+        flex-direction: column;
     }
-    .types ul li:last-child{
+
+    .types ul li:last-child {
         margin-bottom: 0;
     }
 
-    .types ul li div{
+    .types ul li div {
         text-align: center;
     }
+
     .types ul li i {
         float: unset;
     }
-    .contentAbout{
+
+    .contentAbout {
         text-align: center;
     }
-    .overview2{
+
+    .overview2 {
         margin-top: 20px;
     }
+
     .usps .text-center {
         margin-bottom: 40px;
     }
-    .list1{
+
+    .list1 {
         padding: 0;
     }
-    .craouselSection .owl-prev{
+
+    .craouselSection .owl-prev {
         width: 41px;
         height: 41px;
     }
-    .craouselSection .owl-next{
+
+    .craouselSection .owl-next {
         width: 41px;
         height: 41px;
     }
-    .craouselSection .owl-theme .owl-nav{
+
+    .craouselSection .owl-theme .owl-nav {
         top: 10%;
     }
-    .list-map{
+
+    .list-map {
         font-size: 14px;
     }
-    .white,.heading_gallery {
-        font-size: 24px!important;
+
+    .white,
+    .heading_gallery {
+        font-size: 24px !important;
     }
 
-   .gall{
-    margin-bottom: 20px!important;
-    
-   }
-   .gallery-txt p{
-    font-size: 24px;
-   }
-   .homediscover h2{
-    font-size: 20px;
-   }
+    .gall {
+        margin-bottom: 20px !important;
 
-   .homediscover{
-    margin-bottom: 20px!important;
-   }
+    }
 
-   .res{
-      margin-bottom: 25px;
-   }
-   .overviewimg{
-    
-    width: 49% !important;
-    height: 203px;
+    .gallery-txt p {
+        font-size: 24px;
+    }
 
-   }
-   .Tablesection{
-    padding: 0!important;
-    margin-bottom: 20px;
-   }
-   .overviewimg2{
+    .homediscover h2 {
+        font-size: 20px;
+    }
+
+    .homediscover {
+        margin-bottom: 20px !important;
+    }
+
+    .res {
+        margin-bottom: 25px;
+    }
+
+    .overviewimg {
+
+        width: 49% !important;
+        height: 203px;
+
+    }
+
+    .Tablesection {
+        padding: 0 !important;
+        margin-bottom: 20px;
+    }
+
+    .overviewimg2 {
         height: 335px;
         object-fit: inherit;
     }
