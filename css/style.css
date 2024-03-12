@@ -777,7 +777,28 @@ img.w-100.article {
     font-size: 14px;
 }
 
+.darkrise{
+  background-color: #40484b;  
+}
 
+.iconswidth{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.nav-tabs .nav-link.active{
+    color: #d3b05e!important;
+}
+
+.nav-link{
+    color: #000!important;
+}
+
+.wa-icon{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
 
 @media (max-width:800px) {
     .mob {
@@ -967,5 +988,15 @@ img.w-100.article {
     }
     #Article .row .col-md-4{
         padding: 0!important;
+    }
+    #FloorPlan{
+        padding: 0!important;
+    }
+    .tabsectioninner{
+        width: 100%!important;
+        padding: 20px!important;
+    }
+    .mbcol{
+        margin-bottom: 20px;
     }
 }
