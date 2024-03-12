@@ -965,4 +965,7 @@ img.w-100.article {
     #Article{
         padding-bottom: 0!important;
     }
+    #Article .row .col-md-4{
+        padding: 0!important;
+    }
 }
