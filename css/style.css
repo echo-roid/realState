@@ -1,5 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Montserrat:wght@400;500;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&display=swap');
 
+
+/* @font-face {
+    font-family: ascentBold;
+    src: url("../font/Fontop-Ascent-Pro-Demo/AscentProUltraBold.otf");
+  }
+
+  @font-face {
+    font-family: ascentsemi;
+    src: url("../font/Fontop-Ascent-Pro-Demo/AscentProDemoSemiBold.otf");
+  }
+
+  
+  @font-face {
+    font-family: regular;
+    src: url("../font/Fontop-Ascent-Pro-Demo/AscentProDemoRegular.otf");
+  }
+  
+ */
+
+  
+
+
 .poppins-thin {
     font-family: "Poppins", sans-serif;
     font-weight: 100;
@@ -705,6 +727,58 @@ footer p {
     object-fit: contain;
 }
 
+
+.formM input{
+    font-size: 14px;
+    border-radius: 4px;
+    color: #666;
+    font-weight: 400;
+    clear: both;
+    padding: 0 10px !important;
+    width: 100% !important;
+    text-decoration: none;
+    height: 43px;
+    margin: 0 0 10px 0;
+    background-color: #fff;
+    border: solid 1px rgba(0, 0, 0, .2);
+}
+
+.modal-body .close {
+    position: absolute;
+    z-index: 1;
+    right: -28px;
+    top: -91px;
+    font-size: 28px !important;
+    font-weight: 700;
+    color: #000;
+    text-shadow: 0 0px 0 rgba(255,255,255,0);
+    opacity: 1;
+    margin: 0;
+    background: linear-gradient(120deg, #B38728, #FBF5B7, #AA771C) !important;
+    width: 39px;
+    height: 39px;
+    line-height: 39px !important;
+    border-radius: 50%;
+    border: solid 0px #fff !important;
+    outline: none !important;
+}
+
+.headerModal{
+    background: linear-gradient(120deg, #B38728, #FBF5B7, #AA771C) !important;
+}
+
+img.w-100.article {
+    height: 200px;
+    object-fit: fill;
+    cursor: pointer;
+}
+
+.font14{
+    font-size: 14px;
+}
+
+
+
 @media (max-width:800px) {
     .mob {
         display: block;
@@ -881,5 +955,14 @@ footer p {
     .overviewimg2 {
         height: 335px;
         object-fit: inherit;
+    }
+    .modal-content {
+        margin-top: 57px;
+    }
+    #Article .row{
+        gap: 20px;
+    }
+    #Article{
+        padding-bottom: 0!important;
     }
 }
