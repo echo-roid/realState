@@ -1,25 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Montserrat:wght@400;500;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&display=swap');
 
 
-/* @font-face {
-    font-family: ascentBold;
-    src: url("../font/Fontop-Ascent-Pro-Demo/AscentProUltraBold.otf");
+@font-face {
+    font-family: gilroyBold;
+    src: url("../font/gilroy/Gilroy-ExtraBold.ttf");
   }
 
   @font-face {
-    font-family: ascentsemi;
-    src: url("../font/Fontop-Ascent-Pro-Demo/AscentProDemoSemiBold.otf");
+    font-family: gilroyMedium;
+    src: url("../font/gilroy/Gilroy-Medium.ttf");
   }
 
   
   @font-face {
     font-family: regular;
-    src: url("../font/Fontop-Ascent-Pro-Demo/AscentProDemoRegular.otf");
+    src: url("../font/gilroy/Gilroy-Regular.ttf");
   }
   
- */
+
 
   
+
 
 
 .poppins-thin {
@@ -208,6 +209,7 @@ button {
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
+    background-attachment: fixed;
 }
 
 .container-custom {
@@ -518,6 +520,7 @@ button {
     text-decoration: none;
     padding: 30px 0;
     color: #fff;
+    background-attachment: fixed;
 }
 
 .subtitle::before {
@@ -799,6 +802,28 @@ img.w-100.article {
     bottom: 20px;
     right: 20px;
 }
+
+.chatmessage{
+    position: fixed;
+    bottom: 10px;
+    right: 65px;
+
+    color: #fff !important;
+    font-size: 22px !important;
+    width: 52px !important;
+    height: 52px !important;
+    line-height: 52px !important;
+    border-radius: 100%;
+    display: inline-block;
+    margin: 0 2px;
+    border: solid 0px #0b0c0b;
+    box-shadow: 0px 3px 3px rgba(0,0,0,.3);
+    background-color: #000000;
+    z-index: 4;
+
+}
+
+
 
 @media (max-width:800px) {
     .mob {
