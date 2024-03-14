@@ -805,9 +805,8 @@ img.w-100.article {
 
 .chatmessage{
     position: fixed;
-    bottom: 10px;
-    right: 65px;
-
+    bottom: 68px;
+    right: 10px;
     color: #fff !important;
     font-size: 22px !important;
     width: 52px !important;
@@ -823,7 +822,22 @@ img.w-100.article {
 
 }
 
-
+.upscroll{
+    position: fixed;
+    bottom: 14px;
+   left: 10px;
+    width: 52px !important;
+    height: 52px !important;
+    box-shadow: 0px 3px 3px rgba(0,0,0,.3); 
+    text-align: center;
+    border-radius: 100%;
+    line-height: 52px !important;
+    color: black;
+    background: linear-gradient(120deg, rgb(179, 135, 40), rgb(251, 245, 183), rgb(170, 119, 28)) !important;
+    z-index: 4px;  
+    cursor: pointer;
+    display: none;
+} 
 
 @media (max-width:800px) {
     .mob {
@@ -867,6 +881,7 @@ img.w-100.article {
     .banner {
         padding: 10px !important;
         height: 40vh;
+        background-attachment: initial;
     }
 
     .request,
