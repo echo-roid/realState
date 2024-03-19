@@ -190,6 +190,10 @@ p{
     display: block;
 }
 
+.f14{
+    font-size: 14px;
+}
+
 /*  */
 .callbutton {
     background: linear-gradient(120deg, #B38728, #FBF5B7, #AA771C) !important;
@@ -263,7 +267,7 @@ p{
 .brief h4 {
     color: #d3b05e;
     font-weight: 700 !important;
-    font-size: 17px;
+    
 }
 
 .brief ul {
