@@ -169,6 +169,10 @@ p{
     background-color: rgb(0 0 0) !important;
 }
 
+.ulheader{
+    font-family: jostregular;
+}
+
 .logo {
     width: 56%;
 }
