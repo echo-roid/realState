@@ -169,7 +169,7 @@ p{
     background-color: rgb(0 0 0) !important;
 }
 
-.ulheader{
+.ulheader,.list1{
     font-family: jostregular;
 }
 .logo {
@@ -572,7 +572,7 @@ p{
     border-left: solid 0px #FF6600;
     margin: 0 0 10px 0;
     text-align: left;
-    font-weight: 600;
+    font-weight: 400;
     position: relative;
     line-height: 2;
 }
